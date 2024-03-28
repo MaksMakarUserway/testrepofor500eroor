@@ -1,7 +1,6 @@
 # Test-Website-5: Real Estate
 ## Setting up the project
 ```
-npm run prepare
 npm install
 ```
 
