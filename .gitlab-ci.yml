@@ -1,0 +1,28 @@
+image: cypress/browsers:node18.12.0-chrome107
+
+build_and_run_and_test:
+  stage: build
+  script:
+    - npm install
+    - nohup npm run dev > output.log 2>&1 &
+    - sleep 5
+    - curl -I http://localhost:1342/
+    - npm run test:cypress
+  artifacts:
+    paths:
+      - uw-a11y-reports/
+  only:
+    - main
+    - merge_requests
+
+userway-continuous-a11y:
+  image:
+    name: userway/cicd-gitlab:latest
+    entrypoint: [""]
+  script:
+    - userway
+  dependencies:
+    - build_and_run_and_test
+  only:
+    - main
+    - merge_requests

@@ -7,10 +7,12 @@
     "test:playwright": "npx playwright test"
   },
   "devDependencies": {
-    "cypress": "^13.3.3",
-    "express": "^4.19.2",
     "@playwright/test": "^1.42.1",
     "@types/node": "^20.11.30",
+    "@userway/a11y-cypress": "^0.0.16",
+    "@userway/cicd-cli": "^0.0.98",
+    "cypress": "^13.3.3",
+    "express": "^4.19.2",
     "typescript": "^5.0.2"
   }
 }
