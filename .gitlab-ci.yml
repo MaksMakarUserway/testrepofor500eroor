@@ -21,7 +21,7 @@ userway-continuous-a11y:
     entrypoint: [""]
     pull_policy: always
   script:
-    - userway
+    - userway --verbose true
   dependencies:
     - build_and_run_and_test
   only:
