@@ -27,3 +27,4 @@ userway-continuous-a11y:
   only:
     - main
     - merge_requests
+ 
