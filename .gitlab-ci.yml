@@ -17,7 +17,7 @@ build_and_run_and_test:
 
 userway-continuous-a11y:
   image:
-    name: userway/cicd-gitlab:latest
+    name: userway/cicd-gitlab:dev.latest
     entrypoint: [""]
     pull_policy: always
   script:
