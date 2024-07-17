@@ -19,6 +19,7 @@ userway-continuous-a11y:
   image:
     name: userway/cicd-gitlab:latest
     entrypoint: [""]
+    pull_policy: always
   script:
     - userway
   dependencies:
