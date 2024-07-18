@@ -5,3 +5,4 @@ export default {
   reportPaths: ["./uw-a11y-reports"],
   token: process.env.USERWAY_TOKEN,
 } satisfies Config;
+
