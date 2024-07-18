@@ -6,3 +6,4 @@ import type { Config } from '@userway/cicd-cli'
       token: process.env.USERWAY_TOKEN,
       server: "https://api.qa.userway.dev"
     } satisfies Config;
+
