@@ -1,9 +1,9 @@
 import type { Config } from "@userway/cicd-cli";
 export default {
-  organization: "maksym-makar-27-userway-org-lsiec",
+  organization: "sbarabas176-gmail-com",
   project: "test-website-5-real-estate-gitlab",
   reportPaths: ["./uw-a11y-reports"],
-  token: process.env.USERWAY_TOKEN,
+  token: "8umirfxr9obx6sp0ckrjsvhnt6zrqnvdycdsbprr",
 } satisfies Config;
 
 
