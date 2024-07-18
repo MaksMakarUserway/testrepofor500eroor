@@ -4,6 +4,7 @@ export default {
   project: "test-website-5-real-estate-gitlab",
   reportPaths: ["./uw-a11y-reports"],
   token: "8umirfxr9obx6sp0ckrjsvhnt6zrqnvdycdsbprr",
+  server: "https://api.qa.userway.dev"
 } satisfies Config;
 
 
