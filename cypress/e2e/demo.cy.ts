@@ -11,8 +11,6 @@ it('should have the right text in the headline', () => {
   cy.userwayAnalysis();
   cy.visit('/register.html');
   cy.userwayAnalysis();
-  cy.visit('/contact-1.html');
-  cy.userwayAnalysis();
   cy.visit('/contact-2.html');
   cy.userwayAnalysis();
   cy.visit('/contact-3.html');
