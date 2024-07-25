@@ -13,6 +13,7 @@ build_and_run_and_test:
       - uw-a11y-reports/
   only:
     - main
+    - branches
     - merge_requests
 
 userway-continuous-a11y:
