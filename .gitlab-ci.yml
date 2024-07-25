@@ -25,4 +25,5 @@ userway-continuous-a11y:
     - build_and_run_and_test
   only:
     - main
+    - branches
     - merge_requests
